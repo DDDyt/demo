@@ -10,4 +10,9 @@ public class DemoCtrl {
     public String hello(){
         return "hello GitHub";
     }
+
+    @GetMapping("/bye")
+    public String bye(){
+        return "bye GitHub";
+    }
 }
